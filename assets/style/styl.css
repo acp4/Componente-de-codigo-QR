@@ -1,0 +1,46 @@
+.contenedorpadre{
+    position :relative;
+    width: 1350px;
+    height: 720px;
+    background-color: hsl(220, 15%, 55%);
+}
+.contenedorhijo{
+    width: 250px;
+    height: 350px;
+    background-color:hsl(0, 0%, 100%);
+    position:absolute;
+    top: 50;
+    left: 50;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+img {
+    display: block;
+    margin-left: 22px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border:solid white;
+    border-radius: 10px;
+}
+h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
+}
+p{
+    text-align: center;
+    font-size: 10px;
+    color: hsl(220, 15%, 55%); 
+    font-family: 'Righteous', cursive;
+}
+
+/*
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)*/
